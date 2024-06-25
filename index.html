@@ -11,20 +11,59 @@
 </head>
 
 <body>
-         <div class="container">
+        <div class="container">
     
         <div class="center-button">
             <button class="baner">
-            <img class="logo"  src="https://i.ibb.co/RjtcTsL/NO-SMOKER-photoaidcom-cropped.png" 
-             width="50" height="50" alt="$"><a class="Post1" href="#"target="_blank"alt="$">Добавить Токен в<br>MetaMask </a>
-            <a class="Post2"href="#"target="_blank">Смарт Контрак Токена<br>NO SMOK</a>
-            <!-- <a class="info"href="#"target="_blank">TEXT</a> -->
+              <img class="logo"  src="https://i.ibb.co/RjtcTsL/NO-SMOKER-photoaidcom-cropped.png" 
+
+                width="50" height="50" alt="$"><a class="Post" onclick="Post()" 
+                href="#"target="_blank"alt="$">Добавить Токен в<br>MetaMask </a>
+
+                <a class="Post2"href="https://polygonscan.com/token/0x9afe6107c9c4e3794324f147066cd83d098ff85c"
+                    target="_blank">Смарт Контрак Токена:<br>NO SMOK
+                </a>
+
+                <!-- <a class="info"href="#"target="_blank">TEXT</a> -->
             </button>
     
+        </div>
 
+    
+   
+    <script>
+        async function Post() {
+           const tokenAddress = '0x9Afe6107c9c4e3794324F147066Cd83D098FF85c';
+           const tokenSymbol = 'NO SMOK';
+           const tokenDecimals = 18;
+           const tokenImage = 'https://i.ibb.co/RjtcTsL/NO-SMOKER-photoaidcom-cropped.png';
 
-    </div>
-    <script src="script.js"></script>
+          try {
+              // 'wasAdded' is a boolean. Like any RPC method, an error can be thrown.  
+              const wasAdded = await window.ethereum.request({
+                   method: 'wallet_watchAsset',
+                   params: {
+                     type: 'ERC20',
+                      options: {
+                         address: tokenAddress, // The address of the token.
+                          symbol: tokenSymbol, // A ticker symbol or shorthand, up to 5 characters.
+                         decimals: tokenDecimals, // The number of decimals in the token.
+                          image: tokenImage, // A string URL of the token logo.
+                        },
+                    },
+                });
+
+                if (wasAdded) {
+                   console.log('Thanks for your interest!');
+                }  else {
+                   console.log('Your loss!');
+                }
+            } catch (error) {
+              console.log(error);
+            }
+        }
+
+    </script> 
 
 </body>
 </html>
