@@ -7,10 +7,11 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background-image: url('https://i.ibb.co/92q2ksV/NO-SMOKER.jpg');
+    background-image: url('https://images.wallpaperscraft.ru/image/single/kuby_struktura_chernyj_120005_2560x1080.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 .container {
@@ -21,35 +22,127 @@ body, html {
     height: 100%;
 }
 
-.center-button {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    padding: 27px 20px;
-    margin-top: 73px;
-    margin-right: 125px;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s;
+.baner{
+    
+    width: 310px;
+	height: 645px;
+	margin: 20px;
+	margin-top: 17px;
+	margin-bottom: 21px;
+	padding-bottom: 20px
+	color #11a01873;
+	background-color: #595e5d00;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgba(16, 248, 237, 0.986);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 3px  5px;
+
 }
 
-.center-button:hover {
-    background-color: rgb(238, 131, 8);
+.baner{
+    transform: scale(1.1);
 }
+
+.baner:hover{
+    background-image: url(https://images.wallpaperscraft.ru/image/single/znaki_voprosa_figurki_3d_112755_1920x1080.jpg);
+}
+
+
+.logo{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+	margin-bottom: 90px;
+	align-items: center;
+	
+}
+
+
+
+
+/* .center-button {
+    width: 350px;
+	height: 680px;
+	margin: 20px;
+	margin-top: 17px;
+	margin-bottom: 21px;
+	padding-bottom: 20px
+	color #11a01873;
+	background-color: #57e7dbda;
+	font-family: 'Climate Crisis', sans-serif;
+    font-family: 'Noto Serif', serif;
+	border: 2px solid rgba(77, 72, 72, 0.986);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 3px  5px;
+
+}
+.center-button {
+	transform: scale(1.01);
+}
+.center-button:hover {
+    background-color: rgb(236, 141, 32);
+} */
+
+
+
+/* ----------------------------------------------------------------- */
+.Post1{
+    display: block;
+	margin: 5px;
+	padding: 20px;
+	margin-bottom: 90px;
+	border: 1px solid rgb(18, 232, 240);
+	color:rgb(13, 13, 14);
+    background-color: rgb(49, 53, 54);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 2px 5px;
+}
+
+.Post1:hover{
+    background-color: rgb(34, 196, 245);
+}
+
+
+.Post2{
+    display: block;
+	margin: 5px;
+    padding: 20px;
+	border: 1px solid rgb(18, 232, 240);
+	color:rgb(13, 13, 14);
+    background-color: rgb(49, 53, 54);
+	border-radius: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: transform 0.3s ease;
+	box-shadow: 1px 2px 5px;
+}
+
+.Post2:hover{
+    background-color: rgb(34, 196, 245);
+}
+/* ----------------------------------------------------------------------------- */
+
+
+
 
 @media (max-width: 600px) {
-    background-color: rgba(255, 255, 255, 0);
-        font-size: 9px;
-        padding: 14px 20px;
-        margin-top: 33px;
-        margin-right: 56px;
-        border-radius: 3px;
     
-    }
-
-    .center-button:hover{
-        background-color: rgb(238, 131, 8);
-    }
-
+        
+    
 
 }
+
+
