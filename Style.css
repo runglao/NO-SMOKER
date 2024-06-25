@@ -25,7 +25,7 @@ body, html {
 .baner{
     
     width: 310px;
-	height: 580px;
+	height: 620px;
 	margin: 20px;
 	margin-top: 17px;
 	margin-bottom: 21px;
@@ -48,7 +48,7 @@ body, html {
 }
 
 .baner:hover{
-    background-image: url(https://images.wallpaperscraft.ru/image/single/znaki_voprosa_figurki_3d_112755_1920x1080.jpg);
+    background-image: url(https://images.wallpaperscraft.ru/image/single/figury_oskolki_grani_1191161_960x544.jpg);
 }
 
 
@@ -58,6 +58,8 @@ body, html {
     display: inline-block;
 	margin-bottom: 90px;
 	align-items: center;
+    border-radius: 200px;
+    border: 15px solid rgba(18, 247, 247, 0.8);
 	
 }
 
@@ -97,10 +99,10 @@ body, html {
     display: block;
 	margin: 5px;
 	padding: 20px;
-	margin-bottom: 90px;
-	border: 1px solid rgb(18, 232, 240);
-	color:rgb(13, 13, 14);
-    background-color: rgb(49, 53, 54);
+	margin-bottom: 60px;
+	border: 1px solid rgba(18, 233, 240, 0.493);
+	color:rgb(250, 166, 10);
+    background-color: rgba(49, 53, 54, 0.466);
 	border-radius: 20px;
 	text-decoration: none;
 	cursor: pointer;
@@ -111,7 +113,7 @@ body, html {
 }
 
 .Post1:hover{
-    background-color: rgb(34, 196, 245);
+    background-color: rgba(34, 196, 245, 0.308);
 }
 
 
@@ -119,9 +121,9 @@ body, html {
     display: block;
 	margin: 5px;
     padding: 20px;
-	border: 1px solid rgb(18, 232, 240);
-	color:rgb(13, 13, 14);
-    background-color: rgb(49, 53, 54);
+	border: 1px solid rgb(18, 233, 240);
+	color:rgb(250, 166, 10);
+    background-color: rgba(49, 53, 54, 0.466);
 	border-radius: 20px;
 	text-decoration: none;
 	cursor: pointer;
@@ -131,7 +133,7 @@ body, html {
 }
 
 .Post2:hover{
-    background-color: rgb(34, 196, 245);
+    background-color: rgba(34, 196, 245, 0.322);
 }
 /* ----------------------------------------------------------------------------- */
 
@@ -145,11 +147,5 @@ body, html {
 
 }
 
-
-    
-        
-    
-
-}
 
 
