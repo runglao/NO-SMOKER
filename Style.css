@@ -38,13 +38,11 @@ body, html {
 }
 
 @media (max-width: 600px) {
-    .center-button {
-        background-color: rgba(255, 255, 255, 0);
-        font-size: 14px;
-        padding: 5px 10px;
-        padding: 20px 21px;
-        margin-top: 45px;
-        margin-right: 80px;
+    background-color: rgba(255, 255, 255, 0);
+        font-size: 9px;
+        padding: 14px 20px;
+        margin-top: 33px;
+        margin-right: 56px;
         border-radius: 3px;
     
     }
