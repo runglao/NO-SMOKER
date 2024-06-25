@@ -59,12 +59,12 @@ body, html {
 	margin-bottom: 90px;
 	align-items: center;
     border-radius: 200px;
-    border: 15px solid rgba(18, 247, 247, 0.8);
+    border: 9px solid rgba(18, 247, 247, 0.8);
 	transition: transform 0.5s ease;
 }
 
 .logo:hover{
-    border: 15px solid rgb(201, 28, 22);
+    border: 9px solid rgb(201, 28, 22);
     transform: scale(1.1);
 }
 
